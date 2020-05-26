@@ -3,27 +3,41 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D475ADFA502DD84ABB46AA9 /* Pods_FirebaseML_project.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 955D881609511FD97661C8FB /* Pods_FirebaseML_project.framework */; };
 		C414F32E247C54230063A1E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C414F32D247C54230063A1E4 /* AppDelegate.swift */; };
 		C414F330247C54230063A1E4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C414F32F247C54230063A1E4 /* SceneDelegate.swift */; };
 		C414F332247C54230063A1E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C414F331247C54230063A1E4 /* ViewController.swift */; };
-		C414F335247C54230063A1E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C414F333247C54230063A1E4 /* Main.storyboard */; };
 		C414F337247C54270063A1E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C414F336247C54270063A1E4 /* Assets.xcassets */; };
 		C414F33A247C54270063A1E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C414F338247C54270063A1E4 /* LaunchScreen.storyboard */; };
+		C414F342247C582A0063A1E4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C414F341247C582A0063A1E4 /* GoogleService-Info.plist */; };
+		C4366192247D05EF005C0C9F /* FaceDetectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4366191247D05EF005C0C9F /* FaceDetectionController.swift */; };
+		C4366194247D101A005C0C9F /* BarcodeDetectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4366193247D101A005C0C9F /* BarcodeDetectionController.swift */; };
+		C4366196247D128F005C0C9F /* ImageLabelingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4366195247D128F005C0C9F /* ImageLabelingController.swift */; };
+		C4AE7B5F247C5D4000E238E0 /* UIView+Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AE7B5E247C5D4000E238E0 /* UIView+Layout.swift */; };
+		C4AE7B61247CFDE900E238E0 /* TextRecognitionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AE7B60247CFDE900E238E0 /* TextRecognitionController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		710F5F5ECBABB1FB3B4A07E9 /* Pods-FirebaseML-project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseML-project.release.xcconfig"; path = "Target Support Files/Pods-FirebaseML-project/Pods-FirebaseML-project.release.xcconfig"; sourceTree = "<group>"; };
+		7506A2C7DC0F06287A9CC95B /* Pods-FirebaseML-project.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseML-project.debug.xcconfig"; path = "Target Support Files/Pods-FirebaseML-project/Pods-FirebaseML-project.debug.xcconfig"; sourceTree = "<group>"; };
+		955D881609511FD97661C8FB /* Pods_FirebaseML_project.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirebaseML_project.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C414F32A247C54230063A1E4 /* FirebaseML-project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FirebaseML-project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C414F32D247C54230063A1E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C414F32F247C54230063A1E4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		C414F331247C54230063A1E4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C414F334247C54230063A1E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C414F336247C54270063A1E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C414F339247C54270063A1E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C414F33B247C54280063A1E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C414F341247C582A0063A1E4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C4366191247D05EF005C0C9F /* FaceDetectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceDetectionController.swift; sourceTree = "<group>"; };
+		C4366193247D101A005C0C9F /* BarcodeDetectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeDetectionController.swift; sourceTree = "<group>"; };
+		C4366195247D128F005C0C9F /* ImageLabelingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLabelingController.swift; sourceTree = "<group>"; };
+		C4AE7B5E247C5D4000E238E0 /* UIView+Layout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Layout.swift"; sourceTree = "<group>"; };
+		C4AE7B60247CFDE900E238E0 /* TextRecognitionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextRecognitionController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +45,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D475ADFA502DD84ABB46AA9 /* Pods_FirebaseML_project.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		92579B717882C3DEF77DE839 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7506A2C7DC0F06287A9CC95B /* Pods-FirebaseML-project.debug.xcconfig */,
+				710F5F5ECBABB1FB3B4A07E9 /* Pods-FirebaseML-project.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		C414F321247C54220063A1E4 = {
 			isa = PBXGroup;
 			children = (
 				C414F32C247C54230063A1E4 /* FirebaseML-project */,
 				C414F32B247C54230063A1E4 /* Products */,
+				92579B717882C3DEF77DE839 /* Pods */,
+				CC3799C5F26C1E6F30DE3A11 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,12 +85,25 @@
 				C414F32D247C54230063A1E4 /* AppDelegate.swift */,
 				C414F32F247C54230063A1E4 /* SceneDelegate.swift */,
 				C414F331247C54230063A1E4 /* ViewController.swift */,
-				C414F333247C54230063A1E4 /* Main.storyboard */,
+				C4AE7B60247CFDE900E238E0 /* TextRecognitionController.swift */,
+				C4366193247D101A005C0C9F /* BarcodeDetectionController.swift */,
+				C4366195247D128F005C0C9F /* ImageLabelingController.swift */,
+				C4366191247D05EF005C0C9F /* FaceDetectionController.swift */,
+				C4AE7B5E247C5D4000E238E0 /* UIView+Layout.swift */,
 				C414F336247C54270063A1E4 /* Assets.xcassets */,
 				C414F338247C54270063A1E4 /* LaunchScreen.storyboard */,
+				C414F341247C582A0063A1E4 /* GoogleService-Info.plist */,
 				C414F33B247C54280063A1E4 /* Info.plist */,
 			);
 			path = "FirebaseML-project";
+			sourceTree = "<group>";
+		};
+		CC3799C5F26C1E6F30DE3A11 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				955D881609511FD97661C8FB /* Pods_FirebaseML_project.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +113,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C414F33E247C54280063A1E4 /* Build configuration list for PBXNativeTarget "FirebaseML-project" */;
 			buildPhases = (
+				207104FA4E2176B16FF2B88C /* [CP] Check Pods Manifest.lock */,
 				C414F326247C54230063A1E4 /* Sources */,
 				C414F327247C54230063A1E4 /* Frameworks */,
 				C414F328247C54230063A1E4 /* Resources */,
+				2DEE197234E7060866833A1B /* [CP] Embed Pods Frameworks */,
+				4565C887E964D59DA496E3EA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -127,19 +169,83 @@
 			files = (
 				C414F33A247C54270063A1E4 /* LaunchScreen.storyboard in Resources */,
 				C414F337247C54270063A1E4 /* Assets.xcassets in Resources */,
-				C414F335247C54230063A1E4 /* Main.storyboard in Resources */,
+				C414F342247C582A0063A1E4 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		207104FA4E2176B16FF2B88C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FirebaseML-project-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2DEE197234E7060866833A1B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FirebaseML-project/Pods-FirebaseML-project-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FirebaseML-project/Pods-FirebaseML-project-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FirebaseML-project/Pods-FirebaseML-project-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4565C887E964D59DA496E3EA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FirebaseML-project/Pods-FirebaseML-project-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FirebaseML-project/Pods-FirebaseML-project-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FirebaseML-project/Pods-FirebaseML-project-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C414F326247C54230063A1E4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4AE7B5F247C5D4000E238E0 /* UIView+Layout.swift in Sources */,
 				C414F332247C54230063A1E4 /* ViewController.swift in Sources */,
+				C4366194247D101A005C0C9F /* BarcodeDetectionController.swift in Sources */,
+				C4366192247D05EF005C0C9F /* FaceDetectionController.swift in Sources */,
 				C414F32E247C54230063A1E4 /* AppDelegate.swift in Sources */,
+				C4366196247D128F005C0C9F /* ImageLabelingController.swift in Sources */,
+				C4AE7B61247CFDE900E238E0 /* TextRecognitionController.swift in Sources */,
 				C414F330247C54230063A1E4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,14 +253,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C414F333247C54230063A1E4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C414F334247C54230063A1E4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C414F338247C54270063A1E4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,11 +380,13 @@
 		};
 		C414F33F247C54280063A1E4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7506A2C7DC0F06287A9CC95B /* Pods-FirebaseML-project.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6PPL8837AU;
 				INFOPLIST_FILE = "FirebaseML-project/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -294,17 +394,19 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lassesilkoset.FirebaseML-project";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		C414F340247C54280063A1E4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 710F5F5ECBABB1FB3B4A07E9 /* Pods-FirebaseML-project.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6PPL8837AU;
 				INFOPLIST_FILE = "FirebaseML-project/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,7 +414,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lassesilkoset.FirebaseML-project";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
